@@ -1,5 +1,4 @@
-<h1> Hello, Welcome to Mithun's Training!!! </h1>
-<h2>hi  </h2>  
+<h1> Hello, Welcome to SkillRary </h1>
  
 
 
