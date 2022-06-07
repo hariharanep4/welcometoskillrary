@@ -2,6 +2,12 @@ pipeline {
   agent any
   
   stages {
+    
+    stage('GitHub SCM') {
+      steps {
+        git 'https://github.com/hariharanep4/welcometoskillrary/'
+      }
+    }
     stage('Build') {
       steps {
         sh 'mvn clean install -DskipTests'
